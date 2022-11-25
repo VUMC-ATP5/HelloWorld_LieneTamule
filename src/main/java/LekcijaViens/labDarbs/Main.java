@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-//int-integer, satur veselu skaitli
+//int-integer, satur veselu skaitlis
 
         int cikAraIrGradi = 10;
         int temperatura = -10;
@@ -40,8 +40,12 @@ String sunaVards = "Remarks";
 boolean vaiIrPotets = true;
 
 if (vaiIrPotets==true){
-    System.out.println("Remarks drīkst braukt uz ārzemēm ");
+    System.out.println("Remarks drīkst brauk uz ārzemēs");
 }
+if (vaiIrPotets==false){
+    System.out.println("Remarkam ātri jāiet pie vētārsta");
+}
+
 String teksts = "Suna vārds ir: ";
         System.out.println(teksts + sunaVards);
 
