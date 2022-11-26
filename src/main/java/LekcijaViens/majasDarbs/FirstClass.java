@@ -49,7 +49,7 @@ public class FirstClass {
 
         rezultats = 11 % 2;
         System.out.println(rezultats);
-        
+
 
 
     }
